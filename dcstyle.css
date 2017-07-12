@@ -1,0 +1,35 @@
+div.DCRSS-item {
+    margin: 0 0 15px 0;
+}
+div.DCRSS-item:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+a.DCRSS-item {
+    float: left;
+    width: 145px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    text-decoration: none;
+}
+span.DCRSS-prize {
+
+    float: right;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+}
+span.DCRSS-prize-green
+{
+    background-color: #489f38;
+    border-radius: 3px;
+    border-bottom: 2px #307523 solid;
+    color: #fff;
+}
